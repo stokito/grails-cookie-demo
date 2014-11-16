@@ -7,7 +7,7 @@ class UrlMappings {
 			}
 		}
 
-		"/"(view:"/index")
+		"/"(controller: 'cookieExample')
 		"500"(view:'/error')
 	}
 }
