@@ -1,9 +1,9 @@
-grails.servlet.version = "2.5" // Change depending on target container compliance (2.5 or 3.0)
+grails.servlet.version = "3.0" // Change depending on target container compliance (2.5 or 3.0)
 grails.project.class.dir = "target/classes"
 grails.project.test.class.dir = "target/test-classes"
 grails.project.test.reports.dir = "target/test-reports"
-grails.project.target.level = 1.6
-grails.project.source.level = 1.6
+grails.project.target.level = 1.7
+grails.project.source.level = 1.7
 //grails.project.war.file = "target/${appName}-${appVersion}.war"
 //grails.plugin.location.cookie = '../grails-cookie'
 
@@ -34,6 +34,6 @@ grails.project.dependency.resolution = {
         runtime ":database-migration:1.2.1"
         compile ':cache:1.0.1'
         //WATCHME
-        compile 'cookie:0.52'
+        compile ':cookie:1.0'
     }
 }
